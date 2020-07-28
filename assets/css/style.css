@@ -225,8 +225,7 @@ nav ul li a {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/home-bg.jpg") no-repeat scroll center right;
-  background-size: contain;
+  background: url("../img/home-bg.jpg") no-repeat scroll center right/cover;
   height: 100vh;
   width: 100%;
 }
@@ -264,7 +263,7 @@ nav ul li a {
 }
 
 .hero-content .list-social li i {
-  color: #fff;
+  color: #666666;
   font-size: 15px;
 }
 
@@ -339,7 +338,7 @@ nav ul li a {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #666666;
 }
 
 #about .div-img-bg .about-img img {
