@@ -225,7 +225,8 @@ nav ul li a {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/home-bg.jpg") repeat scroll center center/cover;
+  background: url("../img/home-bg.jpg") no-repeat scroll center right;
+  background-size: contain;
   height: 100vh;
   width: 100%;
 }
