@@ -205,6 +205,8 @@ nav ul li a {
 
 .logo {
   float: left;
+  font-size: 18px;
+  line-height: 34px;
 }
 
 .logo img {
