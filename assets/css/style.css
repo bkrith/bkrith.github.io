@@ -203,10 +203,13 @@ nav ul li a {
   text-transform: capitalize;
 }
 
-.logo {
+.logo,
+.logo a {
+  font-family: 'Playfair Display', serif;
   float: left;
-  font-size: 18px;
+  font-size: 28px;
   line-height: 34px;
+  color: #999999;
 }
 
 .logo img {

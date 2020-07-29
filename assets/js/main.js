@@ -88,10 +88,10 @@
   // ========================================================================= //
 
   $('.services-carousel').owlCarousel({
-    autoplay: true,
-    loop: true,
+    autoplay: false,
+    loop: false,
     margin: 20,
-    dots: true,
+    dots: false,
     nav: false,
     responsiveClass: true,
     responsive: {
@@ -133,9 +133,9 @@
 
   // Portfolio details carousel
   $(".portfolio-details-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
+    autoplay: false,
+    dots: false,
+    loop: false,
     items: 1
   });
 
